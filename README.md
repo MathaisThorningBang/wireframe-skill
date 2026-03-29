@@ -10,24 +10,24 @@ npx skills add https://github.com/MathaisThorningBang/wireframe-skill --skill wi
 
 ## Usage
 
-In Claude Code, describe what you want to wireframe — a full page, a specific section, or a component — along with the URL:
+In Claude Code, describe what you want to wireframe and how. The skill works best when you tell it what part of your site to focus on and what you're exploring:
 
 ```
-wireframe the homepage of https://www.superhi.com
-```
-
-```
-wireframe the pricing section of https://www.example.com/pricing
+I have a product list on my homepage — show me 5 different ways to lay it out using wireframes
 ```
 
 ```
-wireframe the navigation and hero from https://www.stripe.com
+Wireframe 3 alternative hero sections for my landing page at https://mysite.com
+```
+
+```
+Take the testimonial section on my site and wireframe a version with a grid layout and one with a carousel
 ```
 
 You can also invoke it directly as a slash command:
 
 ```
-/wireframe superhi https://www.superhi.com
+/wireframe my-project https://mysite.com
 ```
 
 ## What it does
